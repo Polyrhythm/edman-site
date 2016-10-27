@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'AsimovSans';
+    src: url('asimov-sans.woff') format('woff');
+}
+
+html, body {
+    background: pink;
+}
+
+.Hero .title {
+    font-family: 'AsimovSans', sans-serif;
+    font-size: 48px;
+}
