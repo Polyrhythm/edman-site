@@ -6,10 +6,28 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+      <img class="bg" src="https://media.giphy.com/media/fM1SzyEAydW3C/giphy.gif"/>
+
         <div class="Hero">
-            <header>
-                <h1 class="Hero title">Edman Breadman</h1>
-            </header>
+            <h1 class="Hero title">Don't buy just any loaf, make sure it's Edman Breadman approved!</h1>
         </div>
+
+        <script type="text/javascript">
+          var text = document.querySelector(".title");
+          var visible = false;
+
+          setInterval(function() {
+            var opacity;
+            visible = !visible;
+
+            if (visible) {
+              opacity = "0.0";
+            } else {
+              opacity = "1.0";
+            }
+
+            text.style.opacity = opacity;
+          }, 250);
+        </script>
     </body>
 </html>

@@ -4,10 +4,30 @@
 }
 
 html, body {
-    background: pink;
+    background: #073959;
+}
+
+.Hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 20;
 }
 
 .Hero .title {
-    font-family: 'AsimovSans', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #333, 1px -1px 0 #FFF, -1px 1px 0 #FFF, -1px -1px 0 #FFF;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 48px;
+    color: #CB2026;
+    text-align: center;
+    width: 90%;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
 }
